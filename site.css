@@ -1,0 +1,67 @@
+/* Top Nav*/
+html {
+    height: 100%;
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(
+        35deg,
+        #7EC6FF,
+        #FFB989
+    );
+}
+
+.topNav {
+    padding: 10px 150px 10px 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuitem {
+    text-decoration: None;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.menuitem:hover {
+    color:white; 
+}
+   
+/*MJM*/
+#mjm {
+    font-size:  400px;
+    padding: 0 40px 0px 40px;
+}
+
+#megan {
+    border-radius: 50px;
+    float: left;
+}
+
+.footer {
+        color: black; 
+        display: flex;
+        flex-direction: row;
+        }
+
+.fa {
+        color: black;
+        padding: 5px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%; 
+}
+
+h2 {
+    
+        border-width: 500px;
+        background-color: blue; 
+}
